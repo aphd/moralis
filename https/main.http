@@ -1,4 +1,4 @@
-@address=0xD5FC93a885fc42b447055B332B91af9fd90847Ed
+@address={{$dotenv %ADDRESS}}
 @api_key={{$dotenv %API_KEY}}
 
 ### Get Wallet Transaction History
