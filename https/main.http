@@ -1,0 +1,8 @@
+@address=0xD5FC93a885fc42b447055B332B91af9fd90847Ed
+@api_key={{$dotenv %API_KEY}}
+
+### Get Wallet Transaction History
+GET https://deep-index.moralis.io/api/v2.2/wallets/{{address}}/history?chain=eth&order=DESC
+accept: application/json
+X-API-Key: {{api_key}} 
+
